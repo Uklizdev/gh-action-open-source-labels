@@ -24,7 +24,7 @@ jobs:
     - uses: actions/setup-node@v2
       with:
         node-version: '14'
-    - uses: EddieHubCommunity/gh-action-open-source-labels@main
+    - uses: Uklizdev/gh-action-open-source-labels@main
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         owner-name: ${{ github.repository_owner }}
@@ -61,7 +61,3 @@ To add a new label, update the `labels.json` file and the GitHub Action will do 
 ```
 
 > This example shows two common ways to add a label. One without emoji and the other with emoji. Preferred way is the one with emoji at the beginning but there are also some labels which are commonly used without emojis.
-
-## Link to Our Discord Channel:
-
-[Join EddieHub!](http://discord.eddiehub.org)
